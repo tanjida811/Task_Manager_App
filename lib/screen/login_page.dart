@@ -15,11 +15,11 @@ class LoginPage extends StatelessWidget {
             children: [
               Text(
                 "Get Started With",
-                style: TextStyle(fontSize: 34, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.left,
               ),
               SizedBox(
-                height: 34,
+                height: 28,
               ),
               TextField(
                 decoration: InputDecoration(
@@ -71,7 +71,7 @@ class LoginPage extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Don't Have Account?"),
+                      Text("Don't Have Account?",style: TextStyle(fontWeight: FontWeight.bold),),
                       TextButton(
                         child: Text(
                           "Sing up",
